@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    margin: 0;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #333; /* Dark background color */
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav p, nav a {
+    color: #ffffff; /* Dark background color */
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    
+}
+
+/* Footer Styles */
+footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    padding: 5px;}
+
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+
+/* Splash Section */
+.splash {}
+
+.splash h1 {
+    font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #610202
+}
+
+.splash img {
+    border: #610202;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.splash p {font-style: italic;}
+
+/* Horizontal Rules */
+hr {
+    border-width: 2px;
+    border-style: solid;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #610202
+}
+
+/* Paragraph Styles */
+section p {font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* link styles */
+section a {
+    color: #610202;
+    text-decoration: none;
+    font-size: 2;
+}
+section a:hover {
+    text-decoration: underline;
+    
+}
+
+/* List Styles */
+ul {}
+
+dl {}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; /
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    text-align: center; /
+}
+
+.card img {
+    max-width: 10%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.Thankyou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Thankyou a {
+    color: #610202; /* Change this to your desired color */
+    text-decoration: none; /* Remove underline */
+}
+.Thankyou a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
